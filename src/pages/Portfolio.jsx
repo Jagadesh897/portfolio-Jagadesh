@@ -10,7 +10,7 @@ import { Code2, Database, Globe, GraduationCap, Laptop, Server, Moon, Sun, Githu
 
 
 export default function Portfolio() {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(true)
 
   useEffect(() => {
     if (darkMode) {

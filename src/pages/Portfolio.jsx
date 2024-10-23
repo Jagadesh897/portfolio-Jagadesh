@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Code2, Database, Globe, GraduationCap, Laptop, Server, Moon, Sun, Github, Linkedin, Mail, Download, ExternalLink } from "lucide-react"
 
 
+
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(false)
 
@@ -42,6 +43,8 @@ export default function Portfolio() {
     // Clean up the temporary link
     document.body.removeChild(link)
   }
+
+  
 
   return (
     <div className={`min-h-screen ${darkMode ? 'dark' : ''}`}>
@@ -205,15 +208,16 @@ export default function Portfolio() {
             transition={{ delay: 0.5 }}
           >
             <div className="flex justify-center space-x-4">
-              <Button variant="ghost" size="icon">
+              <a href='https://github.com/Jagadesh897'><Button variant="ghost" size="icon" >
                 <Github className="h-5 w-5" />
-              </Button>
+              </Button></a>
+              <a href='https://www.linkedin.com/in/jagadesh-subramani/'>
               <Button variant="ghost" size="icon">
                 <Linkedin className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon">
+              </Button></a>
+              <a href="mailto:jagadeshsubramani707@gmail.com"><Button variant="ghost" size="icon">
                 <Mail className="h-5 w-5" />
-              </Button>
+              </Button></a>
             </div>
             <p className="mt-4 text-sm text-gray-500 dark:text-gray-400">
               © 2024 S Jagadesh. All rights reserved.

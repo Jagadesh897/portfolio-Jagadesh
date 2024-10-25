@@ -28,7 +28,7 @@ export default function Portfolio() {
 
   const handleDownloadResume = () => {
     // The PDF file should be placed in the public folder of your Next.js project
-    const resumeUrl = 'https://github.com/Jagadesh897/portfolio-Jagadesh/blob/main/public/JagadeshSubramaniResume.pdf'
+    const resumeUrl = 'https://drive.google.com/file/d/1xaBGXuFc4ozs1NTGSGvnp-Hwr1kWPc5f/view?usp=sharing'
     
     // Create a temporary anchor element
     const link = document.createElement('a')
@@ -159,7 +159,7 @@ export default function Portfolio() {
                       <a href="https://movie-recommendation-app.example.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-200">
                         <ExternalLink className="w-4 h-4 mr-1" /> Live Demo
                       </a>
-                      <a href="https://github.com/yourusername/movie-recommendation-app" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-200">
+                      <a href="https://github.com/Jagadesh897/Netflix-Gpt" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-200">
                         <Github className="w-4 h-4 mr-1" /> GitHub Repo
                       </a>
                     </div>
@@ -173,10 +173,10 @@ export default function Portfolio() {
                       <Badge variant="outline">Mongoose</Badge>
                     </div>
                     <div className="mt-4 flex space-x-4">
-                      <a href="https://payment-app.example.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-200">
+                      <a href="https://paybyday-frontend.vercel.app/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-200">
                         <ExternalLink className="w-4 h-4 mr-1" /> Live Demo
                       </a>
-                      <a href="https://github.com/yourusername/payment-app" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-200">
+                      <a href="https://github.com/Jagadesh897/PaybyDay" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-200">
                         <Github className="w-4 h-4 mr-1" /> GitHub Repo
                       </a>
                     </div>

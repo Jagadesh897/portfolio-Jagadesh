@@ -126,7 +126,7 @@ export default function Portfolio() {
                       <Server className="mr-2" /> Backend
                     </h3>
                     <div className="flex flex-wrap gap-2">
-                      {['Node.js', 'Express.js', 'MongoDB', 'Mongoose'].map((skill) => (
+                      {['Node.js', 'Express.js', 'MongoDB', 'Mongoose','Json Web Token'].map((skill) => (
                         <Badge key={skill} variant="secondary" className="text-sm py-1 px-2">
                           {skill}
                         </Badge>
@@ -147,6 +147,25 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent className="mt-4">
                 <ul className="space-y-6">
+                <li>
+                    <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200">Book-Store-Application</h3>
+                    <p className="text-gray-600 dark:text-gray-400 mt-2">Developed a full-featured MERN stack book-store application with a user-friendly interface for browsing, purchasing, and managing books across multiple genres.</p>
+                    <div className="mt-2">
+                      <Badge variant="outline" className="mr-2">React</Badge>
+                      <Badge variant="outline" className="mr-2">Node.js</Badge>
+                      <Badge variant="outline" className="mr-2">Express</Badge>
+                      <Badge variant="outline" className="mr-2">Json Web token</Badge>
+                      <Badge variant="outline">MongoDB</Badge>
+                    </div>
+                    <div className="mt-4 flex space-x-4">
+                      <a href="https://book-store-frontend-mernstack.vercel.app" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-200">
+                        <ExternalLink className="w-4 h-4 mr-1" /> Live Demo
+                      </a>
+                      <a href="https://github.com/Jagadesh897/Book-Store-Mern" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-200">
+                        <Github className="w-4 h-4 mr-1" /> GitHub Repo
+                      </a>
+                    </div>
+                  </li>
                   <li>
                     <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200">User Movie Recommendation Application</h3>
                     <p className="text-gray-600 dark:text-gray-400 mt-2">A MERN stack application that provides personalized movie recommendations to users based on their viewing history and preferences.</p>

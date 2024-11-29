@@ -28,7 +28,7 @@ export default function Portfolio() {
 
   const handleDownloadResume = () => {
     // The PDF file should be placed in the public folder of your Next.js project
-    const resumeUrl = 'https://drive.google.com/file/d/1-kqbbSO50P7PadTLGbWomQPJkgCtJfAI/view?usp=sharing'
+    const resumeUrl = 'https://drive.google.com/file/d/1z6XvcZQOCkxtn0Wj19Et3ya0Kv6kTe78/view?usp=sharing'
     
     // Create a temporary anchor element
     const link = document.createElement('a')
